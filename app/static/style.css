@@ -1,0 +1,202 @@
+/* Navbar */
+nav {
+  background-color: lightsteelblue;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #005f99;
+}
+
+/* Reset browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a nice font */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #005f99;
+}
+
+/* Project list */
+ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+li h2 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Button-style links */
+a.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+a.button:hover {
+  background-color: #005f99;
+}
+
+/* CSS for linkedin/github/resume buttons and intro blurb */
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.blurb {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #007acc;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #005f99;
+}
+
+.btn i {
+  font-size: 1.1rem;
+}
+
+/* Headshot css */
+.zac-headshot img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crop-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.crop-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*about blurb css*/
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.about-img {
+  width: 160px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
